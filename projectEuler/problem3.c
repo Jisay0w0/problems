@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-/*ok so first this is the code, and as you can see the result is the remainder from dividing the potential prime number to a divisor. Now the divisor and the prime number are loops. And the main idea is that the prime is the number <= the input
-and to find if its the prime you need to divide it with the numbers less than it like for example the input is 10 then the prime will loop from 1 to 10 then if example the prime is 7 then the numbers for the divisor is from 2 to 6 by being the first value of the
-divisor being 1 then using ">" on the loop for it to be less than the prime. And then the next step is that you need to loop the divisors for every prime number so using the "if" statement.
-*/
+//find the largest prime factor
 
 int main()
 {

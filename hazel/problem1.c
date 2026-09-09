@@ -1,4 +1,5 @@
 #include <stdio.h>
+//divide without using the division symbol
 
 int main()
 {

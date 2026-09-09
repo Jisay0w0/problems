@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//collatz conjecture
 int main()
 {
     int n;

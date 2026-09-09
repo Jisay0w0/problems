@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//check if it's a palindorme
 int main()
 {
     int n;

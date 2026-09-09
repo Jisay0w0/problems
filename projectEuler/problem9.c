@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//There exists exactly one pythagorean triplet for which a + b + c = 1000. Find the product of abc
 int main()
 {
     int a = 2;

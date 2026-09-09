@@ -1,3 +1,5 @@
+//i forgot the problem but wa pa ni nahuman
+
 BEGIN
 INPUT n, count := 1
     WHILE count <= n

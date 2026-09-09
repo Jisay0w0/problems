@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Finding Prime Factors
 int main()
 {
     int n;

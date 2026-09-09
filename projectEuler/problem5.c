@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//what is the smallest positive number that is evenly divisible by all numbers from 1 to 20
 int main()
 {
 

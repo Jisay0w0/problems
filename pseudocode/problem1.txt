@@ -1,3 +1,5 @@
+//find the sum of all the numbers from 1 to n
+
 BEGIN
 INPUT n, sum := 0, i := 1
     WHILE i <= n 

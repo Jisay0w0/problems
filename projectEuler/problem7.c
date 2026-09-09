@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//what is the 10 001st prime number
 int main()
 {
     int number = 1;
