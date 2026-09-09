@@ -1,0 +1,7 @@
+BEGIN
+INPUT n, sum := 0, i := 1
+    WHILE i <= n 
+        sum = sum + i
+        i = i + 1
+DISPLAY sum
+END

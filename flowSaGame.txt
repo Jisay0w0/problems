@@ -1,0 +1,79 @@
+First room: variables: sign and door
+            sign: 
+            "The ex1t is locked"
+            "you may proceed"
+Narrator: "See? Th1s game l1ed to you. Don't make that mistake again."
+
+Second room: variables: sign, door, button and lever
+            sign:
+            "Pull the 1ever to open the door."
+            "The button 1s dangerous Do NOT press it"
+            if (button is pressed){
+                pass
+                Narrator: "Good you can th1nk"
+                           "Good 1uck on the next room"
+            }
+            else {
+                go back to room 1
+                Narrator: "Some1s not thinking"
+            }
+
+Third room: variables: 3 pieces of paper, pin, sign and a door(fake)
+            sign: 
+            Narrator: "hmmm seems like a n1ce room"
+            "Room 3 1s not the way forward."
+            "But find the p1n to move for your reward"
+            Note A: "The f1rst number is 7."
+            Note B: "Add 2 to get the second."
+            Note C: "The last d1git matches the f1rst."
+            Narrator: "Try 3 as the f1rst code"
+
+
+Fourth room: variables: 4 pieces of paper in each room, pin and door 
+            Pin: 954
+            Narrator: "You a1n't gett1ng out of here
+            First Paper: 
+            "I whisper that the digit's five,
+            but every 1 I speak's a l1e. 
+            So fl1p my word and you shall find 
+            the true count resting in your mind"
+            Narrator: "So that's f1ve numbers?"
+            Narrator: "Just kidding"
+
+            Second Paper:
+            "Three and two is what I cla1m,
+            yet if I say the number 1 in this frame,
+            trust it not, so hear me sigh, 
+            the pin is four, and it's a l1e...
+            Narrator: "Then 1t's three and two for next two?"
+            Narrator: "Th1nk about it!!!"
+
+            Third Paper:
+            "S1x sides of a dice is I would say,
+            but die that l1e don't get thy way.
+            Take the six and turn it 'round
+            And what you seek will be found"
+            Narrator: "Funny if there's a 1 in a pin r1ght?
+
+            Fourth Paper:
+            "Listen well, l1sten close,
+            the ranking of superiors,
+            are what I 1mpose,
+            So let th1s be a suggest1on
+            for it is the order of your solution." 
+            Narrator: "M1nd bending ain't it?"
+
+Final room: variables: Narrator, and a pin
+            Narrator: "When did I say that you needed to trust me?"
+            Narrator: "Let me give you a h1nt: the last digit is 0"
+            Narrator: "Another h1nt, I've given you the p1n already"
+            pin: 33210
+EXIT ROOM: variable: Narrator
+            Narrator: "Back at room 1 ain't you?"
+            Narrator: "Well it is named room '1' after all"
+            Narrator: "Thanks for play1ng"
+
+
+
+            
+

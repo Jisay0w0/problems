@@ -1,0 +1,1 @@
+// find the highest digit and lowest digit of a number 
