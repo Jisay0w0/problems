@@ -2,14 +2,7 @@
 
 int main()
 {
-    char *numbers[10] = 
-    {
-    "1234567893",
-    "3723726372"
-    };
-
-    for (int i = 0;  numbers[i] != '\0'; i++)
-    {
-        
-    }
+    long long int number = 1234567890123;
+    number = number % 1000000000000;
+    printf("%lld", number);
 }
