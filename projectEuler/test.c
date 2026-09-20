@@ -2,11 +2,14 @@
 
 int main()
 {
-    int test = 123;
-    int sum;
+    char *numbers[10] = 
+    {
+    "1234567893",
+    "3723726372"
+    };
 
-    while(test > 0){
-        test /= 100;
-        printf("%d\n", test);
+    for (int i = 0;  numbers[i] != '\0'; i++)
+    {
+        
     }
 }

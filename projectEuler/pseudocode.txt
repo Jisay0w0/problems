@@ -1,0 +1,11 @@
+ok so mura siyag 
+
+array (1234567890)
+
+for(int i = 1; i <= 13; i++)
+{
+    numbers = array[1]
+    then after that is %12
+    i + 1
+    then add a next array
+}
