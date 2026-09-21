@@ -2,7 +2,11 @@
 
 int main()
 {
-    long long int number = 1234567890123;
-    number = number % 1000000000000;
-    printf("%lld", number);
+    float number = 1.1;
+    int n = 1;
+
+    if (number > n)
+    {
+        printf("%.2f", number);
+    }
 }

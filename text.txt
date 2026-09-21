@@ -27,3 +27,9 @@ when it comes to sports so it can also help me connect with them.
 -----------------------------------------ITC-----------------------------------------------
 
 Lenovo IdeaPad Slim 3 - Visual Studio Code - 748 MB - desk
+
+Brave - A web browser used to access websites, search for information, watch videos, and use online things.
+VS Code - A code editor used for programming. It can write, edit, and run code in C and other languages.
+Obsidian - A note-taking app used to write down ideas, notes and tasks.
+Messenger - A messaging app used to communicate with people by text messages, calls, and video calls.
+Spotify - A music and audio streaming app used to listen to songs, albums, playlists, podcasts, and other audio content.
