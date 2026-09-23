@@ -33,3 +33,15 @@ VS Code - A code editor used for programming. It can write, edit, and run code i
 Obsidian - A note-taking app used to write down ideas, notes and tasks.
 Messenger - A messaging app used to communicate with people by text messages, calls, and video calls.
 Spotify - A music and audio streaming app used to listen to songs, albums, playlists, podcasts, and other audio content.
+
+Ok our case was that Some random dude with a name of "kopiko" sent a message claiming that Joshwell won 480k pesos from a raffle.
+
+Phishing
+
+The grammar and contents of the message
+- "NOTICE FROM! KOPIKO BLANCA"
+- "Congratulation's Your sim:n0#"
+- "Had won Php(480,000.00.)"
+- "To claim txt: Name/age/add/work: Series 2026!"
+
+We checked if there was actually an official website by Kopiko Blanca and searched for a raffle event and it turns out there weren't any

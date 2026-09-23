@@ -2,23 +2,16 @@
 
 int main()
 {
-    int num = 1;
-    long long int limit = 880000;
-    long long int square = 1;
+    long long int limit = 163000;
     long long int sum = 0;
 
-    while (num <= limit)
+    for (long long int i = 1; i <= limit; i++)
     {
-        if (num % 2 != 0)
-        {
-            square = num * num;
-
-            if (square < limit)
-            {
-                sum = sum + square;
-            }
-        }
-        num = num + 2;
+        long long int num = 2 * i - 1;
+        sum = sum + num * num;
     }
+
     printf("sum = %lld\n", sum);
+
+    return 0;
 }

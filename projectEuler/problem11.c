@@ -35,8 +35,20 @@ int main()
         while (j <= 19)
         {
             right = numbers[i][j];
-            printf("%d ", right);
+            // printf("%d ", right);
             j++;
         }
     }
+    for (int i = 0; i <= 19; i++) // all the vertical stuff
+    {
+        // printf("\n=====================================================================================\n");
+        int j = 0;
+        while (j <= 19)
+        {
+            down = numbers[j][i];
+            // printf("%d ", down);
+            j++;
+        }
+    }
+    
 }

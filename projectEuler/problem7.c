@@ -1,5 +1,5 @@
 #include <stdio.h>
-//what is the 10 001st prime number
+// what is the 10 001st prime number
 int main()
 {
     int number = 1;
@@ -14,16 +14,16 @@ int main()
         for (int divisor = 2; divisor < number; divisor++)
         {
             check = number % divisor;
-            //printf("divisor = %d number = %d check = %d\n", divisor, number, check);
+            // printf("divisor = %d number = %d check = %d\n", divisor, number, check);
             if (check == 0)
             {
-                //printf("this not a prime\n");
+                // printf("this not a prime\n");
                 break;
             }
             if (divisor == number - 1)
             {
                 nth++;
-                //printf("nth = %d\n", nth);
+                // printf("nth = %d\n", nth);
             }
         }
         // printf("prime = %d\n", number);
@@ -31,5 +31,4 @@ int main()
     }
     realNumber = number - 1;
     printf("answer is %d\n", realNumber);
-    
 }
