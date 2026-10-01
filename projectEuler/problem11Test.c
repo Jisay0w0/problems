@@ -7,10 +7,10 @@ int main()
     int temp = 0;
     int temp2 = 0;
 
-    for (int limit = 1; limit <= 20; limit++)
+    for (int limit = 1; limit <= 10; limit++)
     {
         i = temp;
-        while (i <= 19)
+        while (i <= limit + 3)
         {
             printf("[%d][%d]\n", i, j);
             i++;
@@ -19,7 +19,6 @@ int main()
         printf("==================================================\n");
         temp++;
         j = 0;
-
     }
 
     // i = 0;
@@ -32,7 +31,7 @@ int main()
     //     j = temp2;
     //     while (j <= 19)
     //     {
-            
+
     //         printf("[%d][%d]\n", j, i);
     //         i++;
     //         j++;

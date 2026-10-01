@@ -1,5 +1,5 @@
 #include <stdio.h>
-//find the largest product of 4 adjacents numbers
+// find the largest product of 4 adjacents numbers
 
 int main()
 {
@@ -51,5 +51,4 @@ int main()
             j++;
         }
     }
-    
 }
