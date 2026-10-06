@@ -8,7 +8,7 @@ int main()
     
     int answers = 0;
     int temp = n;
-    int i = 3;
+    int i = 2;
 
     while (temp > 1)
     {
