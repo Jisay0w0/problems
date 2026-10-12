@@ -1,4 +1,5 @@
 #include <stdio.h>
+//first 10 digits of the sum of these 100 50-digit numbers
 
 int main()
 {
