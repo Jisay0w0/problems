@@ -5,8 +5,8 @@ int main()
 {
     int numbers[15][15] = {
         {75},
-        {95, 64},
-        {17, 47, 82},
+        {47, 82},
+        {17, 95, 64},
         {18, 35, 87, 10},
         {20, 4, 82, 47, 65},
         {19, 1, 23, 75, 3, 34},
@@ -22,24 +22,41 @@ int main()
 
     int n = 0;
     int sum = 0;
-
+    int placement = 0;
+    int highest = 0;
     for (int i = 0; i <= 14; i++) // for the columns
     {
-        int j = 0, highest = 0;
+        int j = 0;
         for (; j <= i; j++)
         {
-            n = numbers[i][j];
-            // printf("j = %d i = %d\n", j, i);
-
-            // check the highest number of each row
-            if (n > highest)
+            highest = 0;
+            if (placement <= j + 1)
             {
-                highest = n;
+                //placement++;
+                n = numbers[i][j];
+                printf("j = %d i = %d\n", j, i);
+                printf("n = %d\n", n);
+                //check the highest number of each row
+
+                if (n > highest)
+                {
+                    // printf("highest = %d\n", highest);
+                    // printf("placement = %d\n", placement);
+                    printf("j = %d\n", j);
+                    placement = j - 1;
+                    highest = n;
+                    // printf("%d\n", highest);
+                }
+                else
+                {
+                    break;
+                }
             }
-            printf("%d ", n);
         }
-        printf(" highest = %d", highest);
-            sum += highest;
+
+        // printf("%d ", n);
+       // printf(" highest = %d", highest);
+        sum += highest;
         printf("\n");
     }
     printf("sum = %d", sum);
