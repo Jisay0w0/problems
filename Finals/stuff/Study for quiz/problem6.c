@@ -15,11 +15,10 @@ int main()
 
     int i = 0, j = 4, k = COL - 1, l = 0;
 
-    for (int lim = 1; lim <= ROW; lim++, k--, l++, i++, j--)
+    for (int lim = 1; lim <= ROW / 2; lim++, k--, l++, i++, j--)
     {
         for (int limit = i, iTemp = i, jTemp = j; limit < k; limit++, iTemp++, jTemp--)
         {
-
             int temp = arr[iTemp][k];
             arr[iTemp][k] = arr[l][iTemp];
 

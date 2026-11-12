@@ -1,5 +1,5 @@
 #include <stdio.h>
-// mine sweeper where 1 is a mine
+// mine sweeper where 1 is a mine basically minesweeper
 
 #define row 5
 #define col 5
@@ -17,6 +17,7 @@ int main()
         int count = 0;
         for (int j = 0; j < col; j++)
         {
+            //the first argument is checking the surrounding things and the second argument is to not exceed the array
             if (arr[i + 1][j] != 0 && i != col - 1)
             {
                 // printf("i + 1 = %d\n", arr[i + 1][j]);

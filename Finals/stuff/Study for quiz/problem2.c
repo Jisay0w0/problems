@@ -9,12 +9,15 @@ int main()
                          {6, 7, 8, 9, 10}};
     int ans[col][row] = {};
 
+    int sum = 0;
+
     for (int i = 0; i < col; i++)
     {
         for (int j = 0; j < row; j++)
         {
-            ans[i][j] = arr[j][i];
-            // printf("ans[%d][%d] arr[%d][%d]\n", i, j, j, i);
+            
+            // ans[i][j] = arr[j][i];
+            // // printf("ans[%d][%d] arr[%d][%d]\n", i, j, j, i);
         }
     }
 
@@ -22,17 +25,20 @@ int main()
     {
         for (int j = 0; j < col; j++)
         {
-            printf("%d ", arr[i][j]);
+            sum+= arr[i][j];
+            // printf("%d ", arr[i][j]);
         }
-        printf("\n");
+        // printf("\n");
     }
 
     for (int i = 0; i < col; i++)
     {
         for (int j = 0; j < row; j++)
         {
-            printf("%d ", ans[i][j]);
+            // printf("%d ", ans[i][j]);
         }
-        printf("\n");
+        // printf("\n");
     }
+
+    printf("%d", sum);
 }
